@@ -1,0 +1,21 @@
+.explore {
+    width: 90%;
+
+    @media (min-width: 1000px) {
+        height: 100%;
+        margin-right: 4rem;
+    }
+}
+
+.filterBtn {
+    margin-left: 0.5rem;
+    border-radius: 30px;
+    height: 42px;
+    width: 42px;
+    box-shadow: 0 2px 10px var(--color-gray-6);
+    border-color: transparent;
+
+    &:hover {
+        border: 1px solid #535bf2;
+    }
+}
